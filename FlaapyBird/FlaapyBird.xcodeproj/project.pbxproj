@@ -16,12 +16,13 @@
 		E4EA954E1C1020A700C45EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EA954C1C1020A700C45EEE /* LaunchScreen.storyboard */; };
 		E4EA95591C1020A700C45EEE /* FlaapyBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA95581C1020A700C45EEE /* FlaapyBirdTests.m */; };
 		E4EA95671C10235700C45EEE /* FlappyBird.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EA95631C10235700C45EEE /* FlappyBird.png */; };
-		E4EA956A1C10235700C45EEE /* Green_Warp_Pipe_NSMBU.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EA95661C10235700C45EEE /* Green_Warp_Pipe_NSMBU.png */; };
 		E4EA956C1C1023AE00C45EEE /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EA956B1C1023AE00C45EEE /* background.png */; };
 		E4EA956E1C1023C700C45EEE /* startingPage.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EA956D1C1023C700C45EEE /* startingPage.png */; };
 		E4EA95771C10288600C45EEE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EA95761C10288600C45EEE /* Game.m */; };
 		E4EA95791C1031D300C45EEE /* FlappyDown.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EA95781C1031D300C45EEE /* FlappyDown.png */; };
 		E4EA957B1C10362C00C45EEE /* begaining.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EA957A1C10362C00C45EEE /* begaining.png */; };
+		E4EA957D1C103A6B00C45EEE /* upsideDownPipe.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EA957C1C103A6B00C45EEE /* upsideDownPipe.png */; };
+		E4EA95811C103BA100C45EEE /* GP.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EA95801C103BA100C45EEE /* GP.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,13 +51,14 @@
 		E4EA95581C1020A700C45EEE /* FlaapyBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlaapyBirdTests.m; sourceTree = "<group>"; };
 		E4EA955A1C1020A700C45EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4EA95631C10235700C45EEE /* FlappyBird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlappyBird.png; sourceTree = "<group>"; };
-		E4EA95661C10235700C45EEE /* Green_Warp_Pipe_NSMBU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_Warp_Pipe_NSMBU.png; sourceTree = "<group>"; };
 		E4EA956B1C1023AE00C45EEE /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		E4EA956D1C1023C700C45EEE /* startingPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startingPage.png; sourceTree = "<group>"; };
 		E4EA95751C10288600C45EEE /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
 		E4EA95761C10288600C45EEE /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
 		E4EA95781C1031D300C45EEE /* FlappyDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlappyDown.png; sourceTree = "<group>"; };
 		E4EA957A1C10362C00C45EEE /* begaining.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = begaining.png; sourceTree = "<group>"; };
+		E4EA957C1C103A6B00C45EEE /* upsideDownPipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upsideDownPipe.png; sourceTree = "<group>"; };
+		E4EA95801C103BA100C45EEE /* GP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GP.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				E4EA95631C10235700C45EEE /* FlappyBird.png */,
-				E4EA95661C10235700C45EEE /* Green_Warp_Pipe_NSMBU.png */,
+				E4EA95801C103BA100C45EEE /* GP.png */,
 				E4EA956B1C1023AE00C45EEE /* background.png */,
+				E4EA957C1C103A6B00C45EEE /* upsideDownPipe.png */,
 				E4EA95781C1031D300C45EEE /* FlappyDown.png */,
 				E4EA957A1C10362C00C45EEE /* begaining.png */,
 				E4EA956D1C1023C700C45EEE /* startingPage.png */,
@@ -217,11 +220,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4EA956A1C10235700C45EEE /* Green_Warp_Pipe_NSMBU.png in Resources */,
 				E4EA956C1C1023AE00C45EEE /* background.png in Resources */,
 				E4EA957B1C10362C00C45EEE /* begaining.png in Resources */,
+				E4EA957D1C103A6B00C45EEE /* upsideDownPipe.png in Resources */,
 				E4EA956E1C1023C700C45EEE /* startingPage.png in Resources */,
 				E4EA954E1C1020A700C45EEE /* LaunchScreen.storyboard in Resources */,
+				E4EA95811C103BA100C45EEE /* GP.png in Resources */,
 				E4EA954B1C1020A700C45EEE /* Assets.xcassets in Resources */,
 				E4EA95791C1031D300C45EEE /* FlappyDown.png in Resources */,
 				E4EA95461C1020A700C45EEE /* Main.storyboard in Resources */,

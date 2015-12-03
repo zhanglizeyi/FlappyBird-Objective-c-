@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 int BirdFlight;
+int RandomTopPipePosion;
+int RandomBottomPipePosion;
 
 @interface Game : UIViewController
 {
@@ -16,11 +18,19 @@ int BirdFlight;
   IBOutlet UIImageView *Bird;
   IBOutlet UIButton *StartGame;
   
-  NSTimer *BirdMovment;
+  IBOutlet UIImageView *PipeTop;
+  IBOutlet UIImageView *PipeBottom;
+  IBOutlet UIImageView *Top;
+  IBOutlet UIImageView *Bottom;
   
+  
+  NSTimer *PipeMovement;
+  NSTimer *BirdMovment;
 }
 -(IBAction)startGame:(id)sender;
 -(void)birdMoving;
+-(void)PipeMoving;
+-(void)placePipe;
 
 @end
 
